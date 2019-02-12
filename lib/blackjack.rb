@@ -38,8 +38,9 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit?(card_total)
   # code hit? here
+get_user_input(prompt_user)
 end
 
 def invalid_command
