@@ -72,6 +72,6 @@ def runner
     prompt_user
   if initial_round == 21
   end_game
-  
+
 end
 end
