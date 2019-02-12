@@ -21,7 +21,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  answer = gets
+  answer = gets.chomps
   return answer
 end
 
@@ -32,6 +32,10 @@ end
 
 def initial_round
   # code #initial_round here
+  sum = deal_card + deal_card
+  display_card_total(sum)
+  return sum 
+  
 end
 
 def hit?
