@@ -16,7 +16,7 @@ end
 
 def prompt_user
   # code #prompt_user here
-
+    
 end
 
 def get_user_input
@@ -25,8 +25,9 @@ def get_user_input
   return answer
 end
 
-def end_game
+def end_game(card_total)
   # code #end_game here
+   "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
