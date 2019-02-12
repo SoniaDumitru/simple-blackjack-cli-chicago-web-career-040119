@@ -9,7 +9,7 @@ def deal_card
   return random
 end
 
-def display_card_total(number)
+def display_card_total(sum_of_a_players_card)
   # code #display_card_total here
   puts "Your cards add up to #{card_total}"
 end
