@@ -64,13 +64,13 @@ end
 
 def runner
   # code runner here
+  # welcome the user
   welcome
-  deal_card
-  if prompt_user == 'h'
-    deal_card
-  elsif prompt_user == 's'
-    prompt_user
-  if initial_round == 21
-  end_game
+  # deal their first two cards 
+  card_total = initial_round
+  until card_total > 21
+    card_total = hit?(card_total)
+    display_card_total(card_total)
   end
+end_game(card_total)
 end
