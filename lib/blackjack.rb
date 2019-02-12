@@ -64,4 +64,14 @@ end
 
 def runner
   # code runner here
+  welcome
+  deal_card
+  if prompt_user == 'h'
+    deal_card
+  elsif prompt_user == 's'
+    prompt_user
+  if initial_round == 21
+  end_game
+  
+end
 end
