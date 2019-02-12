@@ -9,14 +9,14 @@ def deal_card
   return random
 end
 
-def display_card_total(sum_of_a_players_cards)
+def display_card_total(card_total)
   # code #display_card_total here
   puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
   # code #prompt_user here
-
+    
 end
 
 def get_user_input
