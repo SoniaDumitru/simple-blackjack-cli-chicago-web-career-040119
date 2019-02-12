@@ -28,7 +28,7 @@ end
 
 def end_game(card_total)
   # code #end_game here
-   "Sorry, you hit #{card_total}. Thanks for playing!"
+   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
@@ -51,6 +51,7 @@ def hit?(card_total)
     invalid_command
 end
 end
+
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
