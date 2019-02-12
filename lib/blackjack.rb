@@ -16,12 +16,13 @@ end
 
 def prompt_user
   # code #prompt_user here
-    answer = gets
-    return answer
+    
 end
 
 def get_user_input
   # code #get_user_input here
+  answer = gets
+  return answer
 end
 
 def end_game
